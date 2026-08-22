@@ -1,6 +1,5 @@
 function firstWord(str) {
-  // your code here
-	if (!str) return '';
+    if (!str) return '';
     
     const trimmedStr = str.trimStart();
     
@@ -10,8 +9,10 @@ function firstWord(str) {
         return trimmedStr;
     }
     
+    // Return characters up to the first space
     return trimmedStr.slice(0, spaceIndex);
 }
+
 
 // Do not change the code below
 
